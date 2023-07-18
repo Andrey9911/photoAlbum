@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <title>P.A</title>
+</head>
+<body>
+    <div class="app">
+            <div class="head">
+                <div class="head__add-content">
+                    <div class="but head__add-photo-but but-action add-photo-but">+</div>
+                    <div class="but head__add-theme-but but-action add-theme-but">ramka</div>
+                </div>
+                <div class="add-block__content add-photo-block">
+                    <div class="add-photo-block__steps">
+                        <div data-step="1"v class="add-photo-block__step  step__outer">
+                            <div class="add-photo-block__step  step__inner active">1</div></div>
+                            <div class="step__palka"></div>
+                            <div data-step="2" class="add-photo-block__step  step__outer">
+                                <div  class="add-photo-block__step  step__inner">2</div></div>
+                    </div>
+                    <div class="step-content step1 active">
+                        <div class="field-photo add-photo-block__area-photo">
+                            <div class="field-photo__text">+</div>
+                            <img src="" alt="" class="field-photo__img">
+                            <input type="file" name="photo" accept="image/png, image/gif, image/jpeg" id="photo" class="field-photo__file">
+                        </div>
+                        <div class="add-photo-block__edit edit-photo">
+                            <div class="but edit-photo__but del-photo">del</div>
+                            <div class="but edit-photo__but crop-photo">crop</div>
+                        </div>
+                        <div class="but but-step next add-photo-block__but-step">next</div>
+                    </div>
+                    <div class="step2 step-content">
+                        <div class="array-ramkas">
+                            <div data-ramka="1" class="array-ramkas__ramka example-ramka">
+                                <img src="./src/image/ramka1.png" alt="">
+                            </div>
+                            <div data-ramka="2" class="array-ramkas__ramka example-ramka">
+                                <img src="./src/image/ramka2.jpg" alt="">
+                            </div>
+                            <div data-ramka="3" class="array-ramkas__ramka example-ramka">
+                                <img src="./src/image/ramka3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="finished-picture step2__picture"></div>
+                        <div class="but but-step create add-photo-block__but-step">create</div>
+                    </div>
+                    
+                </div>
+                <div class="add-block__content add-theme-block "></div>
+                
+                <div class="head__save-but but-action">save</div>
+            </div>
+            <div class="main">
+            </div>
+    </div>
+    
+    
+    <script src="./src/js/createImg.js"></script>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/toggleSteps.js"></script>
+</body>
+</html>

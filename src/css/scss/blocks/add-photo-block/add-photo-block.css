@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --bgc-step: #237ACB;
+  --bgc-def: #fff;
+}
+
+.add-photo-block {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 30px;
+  width: 70%;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.step {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}/*# sourceMappingURL=add-photo-block.css.map */

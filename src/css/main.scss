@@ -1,0 +1,21 @@
+@import './scss/all.scss';
+.app{
+    width: 100%;
+    height: 100vh;
+    background-color: #925D20;
+}
+.app>.head{
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    @include flex-content();
+    &>.head__add-content{
+        @include flex-content();
+        width: 200px;
+        justify-content: space-between;
+    }
+}
+
+@import './scss/blocks/but-action/but-action.scss';
+@import './scss/blocks/add-photo-block/add-photo-block.scss';
+@import './scss/blocks/add-ramka-block/add-ramka-bloxk.scss';

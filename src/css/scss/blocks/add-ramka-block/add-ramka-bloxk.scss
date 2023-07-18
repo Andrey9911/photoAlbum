@@ -1,0 +1,31 @@
+.array-ramkas{
+    @include flex-content();
+    & .array-ramkas__ramka{
+        margin: 10px;
+    }
+}
+.example-ramka{
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+    &:hover{
+        border-radius: 10px;
+        background-color: #0000002d;
+    }
+    & img{
+        width: 50%;
+        height: 100px;
+        margin: 0 auto;
+        padding: 10px 50px;
+        box-sizing: content-box;
+    }
+}
+.finished-picture{
+    max-width: 200px;
+    height: 250px;
+    border: orange 3px solid;
+    border-radius: 10px;
+}
+.step2__picture{
+    margin: 0 auto;
+}
